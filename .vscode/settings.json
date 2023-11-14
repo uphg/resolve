@@ -1,0 +1,15 @@
+{
+  // postcss association
+  "files.associations": {
+    "*.css": "postcss",
+    "*.scss": "postcss"
+  },
+  
+  "editor.formatOnSave": false,
+
+  // Auto fix
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": false
+  }
+}
